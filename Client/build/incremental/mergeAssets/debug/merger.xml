@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="actionbarsherlock.aar" >
+        <source path="/Users/shell/work/ClientProject/Client/build/exploded-bundles/actionbarsherlock.aar/assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/Users/shell/work/ClientProject/Client/src/main/assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/shell/work/ClientProject/Client/src/debug/assets" />
+    </dataSet>
+
+</merger>
