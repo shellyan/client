@@ -47,6 +47,7 @@ public class JSONParser {
                 json = EntityUtils.toString(httpEntity);
             }
 
+
         }  catch (ClientProtocolException e) {
             e.printStackTrace();
         } catch (IOException e) {

@@ -8,7 +8,6 @@ import org.json.JSONException;
 
 import java.util.ArrayList;
 
-import luc.edu.client.util.AlertDialogManager;
 import luc.edu.client.util.JSONParser;
 
 
@@ -51,8 +50,8 @@ public class LoadItemActivity extends AsyncTask<String,String,ArrayList<String>>
     protected void onPostExecute(ArrayList<String> json) {
         // dismiss the dialog after getting all tracks
         pDialog.dismiss();
-        AlertDialogManager alert = new AlertDialogManager();
-        alert.showAlertDialog(this.activity,"title",json.toString(),false);
+//        AlertDialogManager alert = new AlertDialogManager();
+//        alert.showAlertDialog(this.activity,"title",json.toString(),false);
 //        TextView tx = (TextView)this.activity.findViewById(R.id.jsonList);
 //        tx.setText(json.toString());
 

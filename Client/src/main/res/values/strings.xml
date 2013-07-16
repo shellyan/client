@@ -6,5 +6,10 @@
     <string name="hello_world">Hello world!</string>
     <string name="tab_navigation_content">content</string>
     <string name="new_fragment">new_fragment</string>
-
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="alert_dialog_two_buttons_title">
+        Lorem ipsum dolor sit aie consectetur adipiscing\nPlloaso mako nuto
+        siwuf cakso dodtos anr koop.
+    </string>
 </resources>

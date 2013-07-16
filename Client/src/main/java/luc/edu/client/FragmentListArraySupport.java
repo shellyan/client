@@ -22,6 +22,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TabHost;
 
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.app.SherlockListFragment;
@@ -30,19 +31,28 @@ import com.actionbarsherlock.app.SherlockListFragment;
  * Demonstration of using ListFragment to show a list of items
  * from a canned array.
  */
-public class FragmentListArraySupport extends SherlockFragmentActivity {
+//public class FragmentListArraySupport extends SherlockFragmentActivity{
+public class FragmentListArraySupport extends SherlockFragmentActivity{
+
+    private static TabHost mTabHost;
+    private static config.TabsAdapter mTabsAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 //        setTheme(SampleList.THEME); //Used for theme switching in samples
         super.onCreate(savedInstanceState);
+//        ViewGroup parant = (ViewGroup)findViewById(R.layout.activity_main);
+//        View view = getLayoutInflater().inflate(R.layout.tab_navigation,parant);
+//        setContentView(view);
+//        mTabHost = ((config)this.getApplication()).getmTabHost();
+//        mTabsAdapter = ((config)this.getApplication()).getmTabsAdapter();
 
-//       array = {""};
         // Create the list fragment and add it as our sole content.
         if (getSupportFragmentManager().findFragmentById(android.R.id.content) == null) {
             ArrayListFragment list = new ArrayListFragment();
             getSupportFragmentManager().beginTransaction().add(android.R.id.content, list).commit();
         }
+
     }
 
 
@@ -62,8 +72,11 @@ public class FragmentListArraySupport extends SherlockFragmentActivity {
         @Override
         public void onListItemClick(ListView l, View v, int position, long id) {
             Log.i("FragmentList", "Item clicked: " + id);
+
         }
     }
+
+
 
 
 }

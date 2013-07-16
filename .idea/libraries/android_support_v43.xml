@@ -1,6 +1,7 @@
 <component name="libraryTable">
   <library name="android-support-v4">
     <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Client/build/exploded-bundles/actionbarsherlock.aar/libs/android-support-v4.jar!/" />
       <root url="jar://$PROJECT_DIR$/libraries/actionbarsherlock/libs/android-support-v4.jar!/" />
     </CLASSES>
     <JAVADOC />

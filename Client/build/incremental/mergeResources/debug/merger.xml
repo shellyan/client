@@ -4340,6 +4340,16 @@ true
     <dataSet config="main" >
         <source path="/Users/shell/work/ClientProject/Client/src/main/res" >
             <file
+                name="bg_striped"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable/bg_striped.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="bg_striped_split"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable/bg_striped_split.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
                 name="fail"
                 path="/Users/shell/work/ClientProject/Client/src/main/res/drawable/fail.png"
                 qualifiers=""
@@ -4355,9 +4365,99 @@ true
                 qualifiers=""
                 type="drawable" />
             <file
+                name="bg_striped_img"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-hdpi/bg_striped_img.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="bg_striped_split_img"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-hdpi/bg_striped_split_img.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_compose"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-hdpi/ic_compose.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_compose_inverse"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-hdpi/ic_compose_inverse.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
                 name="ic_launcher"
                 path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-hdpi/ic_launcher.png"
                 qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher_settings"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-hdpi/ic_launcher_settings.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_magnifying_glass"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-hdpi/ic_magnifying_glass.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_refresh"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-hdpi/ic_refresh.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_refresh_inverse"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-hdpi/ic_refresh_inverse.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_search"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-hdpi/ic_search.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_search_inverse"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-hdpi/ic_search_inverse.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_title_share_default"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-hdpi/ic_title_share_default.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-hdpi/icon.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-ldpi/icon.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="alert_dialog_icon"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-mdpi/alert_dialog_icon.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="bg_striped_img"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-mdpi/bg_striped_img.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="bg_striped_split_img"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-mdpi/bg_striped_split_img.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_compose"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-mdpi/ic_compose.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_compose_inverse"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-mdpi/ic_compose_inverse.png"
+                qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
@@ -4365,8 +4465,63 @@ true
                 qualifiers="mdpi"
                 type="drawable" />
             <file
+                name="ic_launcher_settings"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-mdpi/ic_launcher_settings.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_magnifying_glass"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-mdpi/ic_magnifying_glass.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_refresh"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-mdpi/ic_refresh.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_refresh_inverse"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-mdpi/ic_refresh_inverse.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_search"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-mdpi/ic_search.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_search_inverse"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-mdpi/ic_search_inverse.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-mdpi/icon.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="bg_striped_img"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-xhdpi/bg_striped_img.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="bg_striped_split_img"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-xhdpi/bg_striped_split_img.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
                 name="ic_launcher"
                 path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher_settings"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-xhdpi/ic_launcher_settings.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/drawable-xhdpi/icon.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
@@ -4390,6 +4545,11 @@ true
                 qualifiers=""
                 type="layout" />
             <file
+                name="tab_navigation"
+                path="/Users/shell/work/ClientProject/Client/src/main/res/layout/tab_navigation.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="main"
                 path="/Users/shell/work/ClientProject/Client/src/main/res/menu/main.xml"
                 qualifiers=""
@@ -4407,9 +4567,16 @@ true
                 qualifiers="" >
                 <string name="action_settings" >Settings
                 </string>
+                <string name="alert_dialog_ok" >OK
+                </string>
                 <string name="app_name" >Client
                 </string>
+                <string name="alert_dialog_two_buttons_title" >        Lorem ipsum dolor sit aie consectetur adipiscing\nPlloaso mako nuto
+        siwuf cakso dodtos anr koop.
+                </string>
                 <string name="hello_world" >Hello world!
+                </string>
+                <string name="alert_dialog_cancel" >Cancel
                 </string>
                 <string name="tab_navigation_content" >content
                 </string>

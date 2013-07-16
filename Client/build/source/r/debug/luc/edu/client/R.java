@@ -824,9 +824,24 @@ containing a value of this type.
         public static final int abs__textfield_searchview_right_holo_dark=0x7f02006d;
         public static final int abs__textfield_searchview_right_holo_light=0x7f02006e;
         public static final int abs__toast_frame=0x7f02006f;
-        public static final int fail=0x7f020070;
-        public static final int ic_launcher=0x7f020071;
-        public static final int success=0x7f020072;
+        public static final int alert_dialog_icon=0x7f020070;
+        public static final int bg_striped=0x7f020071;
+        public static final int bg_striped_img=0x7f020072;
+        public static final int bg_striped_split=0x7f020073;
+        public static final int bg_striped_split_img=0x7f020074;
+        public static final int fail=0x7f020075;
+        public static final int ic_compose=0x7f020076;
+        public static final int ic_compose_inverse=0x7f020077;
+        public static final int ic_launcher=0x7f020078;
+        public static final int ic_launcher_settings=0x7f020079;
+        public static final int ic_magnifying_glass=0x7f02007a;
+        public static final int ic_refresh=0x7f02007b;
+        public static final int ic_refresh_inverse=0x7f02007c;
+        public static final int ic_search=0x7f02007d;
+        public static final int ic_search_inverse=0x7f02007e;
+        public static final int ic_title_share_default=0x7f02007f;
+        public static final int icon=0x7f020080;
+        public static final int success=0x7f020081;
     }
     public static final class id {
         public static final int abs__action_bar=0x7f060020;
@@ -916,6 +931,7 @@ containing a value of this type.
         public static final int hello_world=0x7f030017;
         public static final int sherlock_spinner_dropdown_item=0x7f030018;
         public static final int sherlock_spinner_item=0x7f030019;
+        public static final int tab_navigation=0x7f03001a;
     }
     public static final class menu {
         public static final int main=0x7f0b0000;
@@ -935,10 +951,13 @@ containing a value of this type.
         public static final int abs__shareactionprovider_share_with=0x7f09000b;
         public static final int abs__shareactionprovider_share_with_application=0x7f09000c;
         public static final int action_settings=0x7f09000d;
-        public static final int app_name=0x7f09000e;
-        public static final int hello_world=0x7f09000f;
-        public static final int new_fragment=0x7f090010;
-        public static final int tab_navigation_content=0x7f090011;
+        public static final int alert_dialog_cancel=0x7f09000e;
+        public static final int alert_dialog_ok=0x7f09000f;
+        public static final int alert_dialog_two_buttons_title=0x7f090010;
+        public static final int app_name=0x7f090011;
+        public static final int hello_world=0x7f090012;
+        public static final int new_fragment=0x7f090013;
+        public static final int tab_navigation_content=0x7f090014;
     }
     public static final class style {
         /** 
