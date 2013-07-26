@@ -80,7 +80,7 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Client/src/main/java/luc/edu/client/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="157" column="24" selection-start="5391" selection-end="5391" vertical-scroll-proportion="0.0" vertical-offset="2070" max-vertical-offset="2580">
+            <state line="67" column="0" selection-start="2286" selection-end="2286" vertical-scroll-proportion="0.0" vertical-offset="1650" max-vertical-offset="2580">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,10 +88,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FragmentListArraySupport.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FragmentListArraySupport.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Client/src/main/java/luc/edu/client/FragmentListArraySupport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="0" selection-start="2138" selection-end="2138" vertical-scroll-proportion="0.33333334" vertical-offset="670" max-vertical-offset="1365">
+            <state line="59" column="17" selection-start="2152" selection-end="2158" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1365">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,13 +99,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TabClass.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TabClass.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Client/src/main/java/luc/edu/client/TabClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="13" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1365">
+            <state line="36" column="5" selection-start="915" selection-end="915" vertical-scroll-proportion="0.7352941" vertical-offset="165" max-vertical-offset="1425">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#660#668#0" expanded="true" />
+                <element signature="e#724#732#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,7 +114,7 @@
       <file leaf-file-name="config.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Client/src/main/java/luc/edu/client/config.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="144" column="60" selection-start="4779" selection-end="4779" vertical-scroll-proportion="-6.44" vertical-offset="1819" max-vertical-offset="2595">
+            <state line="138" column="32" selection-start="4593" selection-end="4593" vertical-scroll-proportion="-2.84" vertical-offset="1819" max-vertical-offset="2595">
               <folding>
                 <element signature="e#3788#3797#0" expanded="true" />
               </folding>
@@ -181,8 +181,8 @@
         <option value="$PROJECT_DIR$/Client/src/main/java/luc/edu/client/util/JSONParser.java" />
         <option value="$PROJECT_DIR$/Client/src/main/java/luc/edu/client/LoadItemActivity.java" />
         <option value="$PROJECT_DIR$/Client/src/main/java/luc/edu/client/config.java" />
-        <option value="$PROJECT_DIR$/Client/src/main/java/luc/edu/client/TabClass.java" />
         <option value="$PROJECT_DIR$/Client/src/main/java/luc/edu/client/MainActivity.java" />
+        <option value="$PROJECT_DIR$/Client/src/main/java/luc/edu/client/TabClass.java" />
       </list>
     </option>
   </component>
@@ -620,7 +620,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -633,7 +633,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24558927" sideWeight="0.67164177" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32793018" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917705" sideWeight="0.64705884" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32917705" sideWeight="0.64705884" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.6708229" order="1" side_tool="false" content_ui="tabs" />
@@ -825,39 +825,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/main/java/luc/edu/client/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="0" selection-start="2286" selection-end="2286" vertical-scroll-proportion="0.0" vertical-offset="1650" max-vertical-offset="2580">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/main/java/luc/edu/client/config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="60" selection-start="4779" selection-end="4779" vertical-scroll-proportion="-6.44" vertical-offset="1819" max-vertical-offset="2595">
+        <state line="138" column="32" selection-start="4593" selection-end="4593" vertical-scroll-proportion="-2.84" vertical-offset="1819" max-vertical-offset="2595">
           <folding>
             <element signature="e#3788#3797#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/main/java/luc/edu/client/TabClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="13" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1365">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#660#668#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/src/main/java/luc/edu/client/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="157" column="24" selection-start="5391" selection-end="5391" vertical-scroll-proportion="0.0" vertical-offset="2070" max-vertical-offset="2580">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Client/src/main/java/luc/edu/client/FragmentListArraySupport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="2138" selection-end="2138" vertical-scroll-proportion="0.33333334" vertical-offset="670" max-vertical-offset="1365">
+        <state line="59" column="17" selection-start="2152" selection-end="2158" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1365">
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/src/main/java/luc/edu/client/TabClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="5" selection-start="915" selection-end="915" vertical-scroll-proportion="0.7352941" vertical-offset="165" max-vertical-offset="1425">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#724#732#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -15,17 +15,21 @@ import java.util.concurrent.ExecutionException;
  */
 
 
-public  class TabClass extends SherlockListFragment {
-
-    private  final String base_URL = "http://pervasive-dev.cs.luc.edu:8080/sensor-proxy-restful/";
-    private  String current_URL = base_URL;
-    private  final String base_dir = "root";
-    private  String current_dir = base_dir;
-    private  ArrayList<String> array = new ArrayList<String>();
+public  class TabClass {
 
 
 
-    @Override
+    public static class TabSubClass extends SherlockListFragment {
+
+
+        private  final String base_URL = "http://pervasive-dev.cs.luc.edu:8080/sensor-proxy-restful/";
+        private   String current_URL = base_URL;
+        private  final String base_dir = "root";
+        private  String current_dir = base_dir;
+        private   ArrayList<String> array = new ArrayList<String>();
+
+
+        @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         loadItemToAdapter(base_URL);
@@ -76,7 +80,7 @@ public  class TabClass extends SherlockListFragment {
 
 
 
-}
+}}
 
 
 

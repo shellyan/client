@@ -60,7 +60,7 @@ public class MainActivity extends SherlockFragmentActivity {
         mTabsAdapter = new config.TabsAdapter(this, mTabHost, mViewPager);
 
         mTabsAdapter.addTab(mTabHost.newTabSpec(String.valueOf(tabs++)).setIndicator("root"),
-                TabClass.class, null);
+                TabClass.TabSubClass.class, null);
         if (savedInstanceState != null) {
             mTabHost.setCurrentTabByTag(savedInstanceState.getString("tab"));
         }
@@ -149,7 +149,7 @@ public class MainActivity extends SherlockFragmentActivity {
     public boolean onOptionsItemSelected(MenuItem item){
 
         if (item.getTitle() =="Add"){
-            mTabsAdapter.addTab(mTabHost.newTabSpec(String.valueOf(tabs++)).setIndicator("root"),TabClass.class
+            mTabsAdapter.addTab(mTabHost.newTabSpec(String.valueOf(tabs++)).setIndicator("root"),TabClass.TabSubClass.class
                     , null);
             return true;
         }
