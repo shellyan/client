@@ -47,14 +47,14 @@ public class config extends Application{
      * tab changes.
      */
     public static class TabsAdapter extends FragmentPagerAdapter
-            implements TabHost.OnTabChangeListener, ViewPager.OnPageChangeListener {
+        implements TabHost.OnTabChangeListener, ViewPager.OnPageChangeListener {
         private final Context mContext;
         private  TabHost mTabHost;
         private final ViewPager mViewPager;
         private ArrayList<TabInfo> mTabs = new ArrayList<TabInfo>();
 
         static final class TabInfo {
-            private final TabHost.TabSpec tabSpec;
+            public TabHost.TabSpec tabSpec;
             private final Class<?> clss;
             private final Bundle args;
 
@@ -63,6 +63,8 @@ public class config extends Application{
                 clss = _class;
                 args = _args;
             }
+
+
 
 
         }
@@ -113,6 +115,19 @@ public class config extends Application{
                if (_tag != mTabs.get(i).tabSpec.getTag()){
                 newmTabs.add(mTabs.get(i));
                 mTabHost.addTab(mTabs.get(i).tabSpec);}
+            }
+            mTabs = newmTabs;
+            notifyDataSetChanged();
+        }
+
+        public void updateTabTitle( String _tag, String title){
+            mTabHost.clearAllTabs();
+            ArrayList<TabInfo> newmTabs = new ArrayList<TabInfo>();
+            for(int i = 0 ;i < mTabs.size();i++){
+                if (_tag == mTabs.get(i).tabSpec.getTag()){
+                    mTabs.get(i).tabSpec.setIndicator(title);
+                    newmTabs.add(mTabs.get(i));
+                    mTabHost.addTab(mTabs.get(i).tabSpec);}
             }
             mTabs = newmTabs;
             notifyDataSetChanged();

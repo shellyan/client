@@ -51,7 +51,7 @@ public class LoadItemActivity extends AsyncTask<String,String,ArrayList<String>>
         // dismiss the dialog after getting all tracks
         pDialog.dismiss();
 //        AlertDialogManager alert = new AlertDialogManager();
-//        alert.showAlertDialog(this.activity,"title",json.toString(),false);
+//        alert.showAlertDialog(this.activity,"Got something",json.toString(),false);
 //        TextView tx = (TextView)this.activity.findViewById(R.id.jsonList);
 //        tx.setText(json.toString());
 

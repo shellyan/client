@@ -25,9 +25,6 @@ import com.actionbarsherlock.view.ActionMode;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
 
-import java.util.ArrayList;
-import java.util.concurrent.ExecutionException;
-
 import luc.edu.client.util.AlertDialogManager;
 
 /**
@@ -43,14 +40,12 @@ import luc.edu.client.util.AlertDialogManager;
 
 public class MainActivity extends SherlockFragmentActivity {
     public static int THEME = R.style.Theme_Sherlock;
-    TabHost mTabHost;
+    public static TabHost mTabHost;
     ViewPager mViewPager;
-    config.TabsAdapter mTabsAdapter;
-    static String[] array;
+    public static config.TabsAdapter mTabsAdapter;
     ActionMode mMode;
-
-    static ArrayList json;
     AlertDialogManager alert = new AlertDialogManager();
+    int tabs = 1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 //        setTheme(SampleList.THEME); //Used for theme switching in samples
@@ -58,38 +53,16 @@ public class MainActivity extends SherlockFragmentActivity {
 
         setContentView(R.layout.activity_main);
 
-
-//        mTabHost = ((config) this.getApplication()).getmTabHost();
-//        mViewPager = ((config) this.getApplication()).getmViewPager();
-//        mTabsAdapter = ((config) this.getApplication()).getmTabsAdapter();
-
         mTabHost = (TabHost)findViewById(android.R.id.tabhost);
         mTabHost.setup();
-
         mViewPager = (ViewPager)findViewById(R.id.pager);
-
         mTabsAdapter = new config.TabsAdapter(this, mTabHost, mViewPager);
 
 
 
-        LoadItemActivity loadItemActivity = (LoadItemActivity) new LoadItemActivity(this).execute(config.base_URL);
-        try {
-            json = loadItemActivity.get();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (ExecutionException e) {
-            e.printStackTrace();
-        }
-        config.array = json;
 
-        mTabsAdapter.addTab(mTabHost.newTabSpec("1").setIndicator("11"),
-                FragmentListArraySupport.ArrayListFragment.class, null);
-mTabsAdapter.addTab(mTabHost.newTabSpec("2").setIndicator("22"),
-                FragmentListArraySupport.ArrayListFragment.class, null);
-mTabsAdapter.addTab(mTabHost.newTabSpec("3").setIndicator("33"),
-                FragmentListArraySupport.ArrayListFragment.class, null);
-
-
+        mTabsAdapter.addTab(mTabHost.newTabSpec(String.valueOf(tabs++)).setIndicator("root"),
+                TabClass.ArrayListFragment.class, null);
         if (savedInstanceState != null) {
             mTabHost.setCurrentTabByTag(savedInstanceState.getString("tab"));
         }
@@ -178,8 +151,8 @@ mTabsAdapter.addTab(mTabHost.newTabSpec("3").setIndicator("33"),
     public boolean onOptionsItemSelected(MenuItem item){
 
         if (item.getTitle() =="Add"){
-            mTabsAdapter.addTab(mTabHost.newTabSpec("root").setIndicator("Root"),
-                    FragmentListArraySupport.ArrayListFragment.class, null);
+            mTabsAdapter.addTab(mTabHost.newTabSpec(String.valueOf(tabs++)).setIndicator("root"),
+                    TabClass.ArrayListFragment.class, null);
             return true;
         }
         if (item.getTitle() == "Edit"){
