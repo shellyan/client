@@ -121,15 +121,15 @@ public class config extends Application{
         }
 
         public void updateTabTitle( String _tag, String title){
+
             mTabHost.clearAllTabs();
-            ArrayList<TabInfo> newmTabs = new ArrayList<TabInfo>();
             for(int i = 0 ;i < mTabs.size();i++){
                 if (_tag == mTabs.get(i).tabSpec.getTag()){
                     mTabs.get(i).tabSpec.setIndicator(title);
-                    newmTabs.add(mTabs.get(i));
-                    mTabHost.addTab(mTabs.get(i).tabSpec);}
+                }
+                mTabHost.addTab(mTabs.get(i).tabSpec);
+
             }
-            mTabs = newmTabs;
             notifyDataSetChanged();
         }
 

@@ -46,6 +46,7 @@ public class MainActivity extends SherlockFragmentActivity {
     ActionMode mMode;
     AlertDialogManager alert = new AlertDialogManager();
     int tabs = 1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 //        setTheme(SampleList.THEME); //Used for theme switching in samples
@@ -58,11 +59,8 @@ public class MainActivity extends SherlockFragmentActivity {
         mViewPager = (ViewPager)findViewById(R.id.pager);
         mTabsAdapter = new config.TabsAdapter(this, mTabHost, mViewPager);
 
-
-
-
         mTabsAdapter.addTab(mTabHost.newTabSpec(String.valueOf(tabs++)).setIndicator("root"),
-                TabClass.ArrayListFragment.class, null);
+                TabClass.class, null);
         if (savedInstanceState != null) {
             mTabHost.setCurrentTabByTag(savedInstanceState.getString("tab"));
         }
@@ -151,8 +149,8 @@ public class MainActivity extends SherlockFragmentActivity {
     public boolean onOptionsItemSelected(MenuItem item){
 
         if (item.getTitle() =="Add"){
-            mTabsAdapter.addTab(mTabHost.newTabSpec(String.valueOf(tabs++)).setIndicator("root"),
-                    TabClass.ArrayListFragment.class, null);
+            mTabsAdapter.addTab(mTabHost.newTabSpec(String.valueOf(tabs++)).setIndicator("root"),TabClass.class
+                    , null);
             return true;
         }
         if (item.getTitle() == "Edit"){
